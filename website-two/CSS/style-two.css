@@ -1,0 +1,201 @@
+/* Set default styles for body */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+/* Style for text tags */
+h1 {
+  font-family: "Sacramento", handwriting;
+  font-size: 5rem;
+  margin: 40px auto 0 auto;
+  color: #3388a5;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "Shantell Sans", cursive;
+  margin: 0 auto 0 auto;
+  font-size: 2rem;
+  font-weight: normal;
+  font-style: italic;
+  color: #1e728e;
+}
+
+h3 {
+  font-family: "Shantell Sans", cursive;
+  font-size: 1.5rem;
+  color: #1e728e;
+  font-weight: normal;
+}
+
+p,
+a {
+  font-size: 1.2rem;
+  color: #13999e;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Style for containers */
+
+.top-container {
+  background-color: #f2e8e6;
+  position: relative;
+  padding-top: 80px;
+}
+
+.heading-container {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.middle-container {
+  background-color: #eeafa6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile-container {
+  width: 70%;
+  margin: auto;
+}
+
+.profile-container-two {
+  width: 50%;
+  margin: auto;
+}
+
+.profile-container-three {
+  text-align: justify;
+}
+
+.skill-row-container-one,
+.skill-row-container-two {
+  width: 70%;
+  margin: 60px auto 60px auto;
+}
+
+.skill-row-container-one {
+  text-align: left;
+}
+
+.skill-row-container-two {
+  text-align: right;
+}
+
+.contact-me-container {
+  width: 70%;
+  margin: auto;
+}
+
+.contact-me-container-two {
+  width: 60%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #c29bb6;
+  padding: 7px;
+}
+
+/* Styles for cloud images */
+.cloud-one,
+.cloud-two {
+  width: 15%;
+  position: absolute;
+}
+
+.cloud-one {
+  right: 0;
+  top: 0;
+}
+
+.cloud-two {
+  left: 0;
+  bottom: 0;
+}
+
+/* Styles for mountain image */
+.mountain {
+  width: 70%;
+  margin: auto;
+  padding: 0;
+  display: block;
+  margin-top: 30px;
+}
+
+/* Styles for avatar images */
+.avatar-one {
+  width: 4%;
+  border-radius: 50%;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+
+.profile-pic {
+  width: 25%;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style for icons */
+.dev-icon,
+.writing-icon {
+  width: 20%;
+}
+
+.dev-icon {
+  float: left;
+  margin-right: 30px;
+}
+
+.writing-icon {
+  float: right;
+  margin-left: 30px;
+}
+
+/* Style for horizontal rules */
+hr {
+  width: 10%;
+  border: dotted #d89b91 10px;
+  border-top: none;
+  margin: 50px auto;
+}
+
+/* Style of extra elements in bottom section */
+.btn {
+  background-color: #d89b91;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 60px 20px 60px;
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.footer-link {
+  margin-left: 15px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color:white;
+}
+
+.copywrite {
+  font-size: 0.75rem;
+  color: rgb(85, 85, 85);
+  padding: 10px 0;
+}
